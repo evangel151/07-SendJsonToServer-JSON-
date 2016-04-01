@@ -13,6 +13,9 @@
 		00A168291CAE622E004A774D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A168271CAE622E004A774D /* Main.storyboard */; };
 		00A1682B1CAE622E004A774D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00A1682A1CAE622E004A774D /* Assets.xcassets */; };
 		00A1682E1CAE622E004A774D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A1682C1CAE622E004A774D /* LaunchScreen.storyboard */; };
+		00A1683B1CAE7369004A774D /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A168371CAE7369004A774D /* MBProgressHUD+MJ.m */; };
+		00A1683C1CAE7369004A774D /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 00A168381CAE7369004A774D /* MBProgressHUD.bundle */; };
+		00A1683D1CAE7369004A774D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A1683A1CAE7369004A774D /* MBProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,11 @@
 		00A1682A1CAE622E004A774D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00A1682D1CAE622E004A774D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00A1682F1CAE622E004A774D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00A168361CAE7369004A774D /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		00A168371CAE7369004A774D /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		00A168381CAE7369004A774D /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		00A168391CAE7369004A774D /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		00A1683A1CAE7369004A774D /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +82,23 @@
 		00A1681E1CAE622E004A774D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				00A168351CAE7369004A774D /* MBProgressHUD */,
 				00A1681F1CAE622E004A774D /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00A168351CAE7369004A774D /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				00A168361CAE7369004A774D /* MBProgressHUD+MJ.h */,
+				00A168371CAE7369004A774D /* MBProgressHUD+MJ.m */,
+				00A168381CAE7369004A774D /* MBProgressHUD.bundle */,
+				00A168391CAE7369004A774D /* MBProgressHUD.h */,
+				00A1683A1CAE7369004A774D /* MBProgressHUD.m */,
+			);
+			name = MBProgressHUD;
+			path = "../../../../../../第三方框架/MBProgressHUD";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00A1682E1CAE622E004A774D /* LaunchScreen.storyboard in Resources */,
+				00A1683C1CAE7369004A774D /* MBProgressHUD.bundle in Resources */,
 				00A1682B1CAE622E004A774D /* Assets.xcassets in Resources */,
 				00A168291CAE622E004A774D /* Main.storyboard in Resources */,
 			);
@@ -149,7 +172,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00A1683B1CAE7369004A774D /* MBProgressHUD+MJ.m in Sources */,
 				00A168261CAE622E004A774D /* ViewController.m in Sources */,
+				00A1683D1CAE7369004A774D /* MBProgressHUD.m in Sources */,
 				00A168231CAE622E004A774D /* AppDelegate.m in Sources */,
 				00A168201CAE622E004A774D /* main.m in Sources */,
 			);
